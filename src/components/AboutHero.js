@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Button } from "./Button"
 
-const Hero = () => {
+const AboutHero = () => {
     return (
        <HeroContainer>
            <HeroBg>
@@ -10,7 +10,7 @@ const Hero = () => {
            </HeroBg>
            <HeroContent>
                <HeroItems>
-                   <HeroH1>SEO Adrian Dąbrowiecki</HeroH1>
+                   <HeroH1>About</HeroH1>
                    <HeroP>Jeżeli potrzebny ci specialista SEO, to dobrze trafiłeś</HeroP>
                    <Button primary="true" big="true" round="true" to="/services">Usługi</Button>
                </HeroItems>
@@ -19,12 +19,12 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default AboutHero
 
 const HeroContainer = styled.div`
     content: '';
     display: flex;
-    background: linear-gradient(30deg,#ff0081, #6827);
+    background: linear-gradient(30deg,#DDD000, #DDD0A0);
     border-radius: 0 0 90% 90%/0 0 100% 100%;
     transform:scaleX(1,5);
     justify-content: center;
@@ -80,5 +80,4 @@ const HeroP = styled.p`
     font-size: clamp(1rem, 3vvw, 3rem);
     margin-bottom: 2rem;
 `
-
 

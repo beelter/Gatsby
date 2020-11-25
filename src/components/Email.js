@@ -90,7 +90,7 @@ const FormWrap = styled.div`
                 display: flex;
                 flex-direction: column;
                 padding: 0 1rem;
-                align-items: center;
+
 
                 input {
                     margin-bottom: 1rem;
