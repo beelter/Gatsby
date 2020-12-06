@@ -1,6 +1,8 @@
 import React from 'react'
 import {DiNodejsSmall} from 'react-icons/di'
-import {DiCode, DiAtom, DiAngularSimple} from 'react-icons/di'
+import {DiCode} from 'react-icons/di'
+import {DiAtom} from 'react-icons/di'
+import {DiAngularSimple} from 'react-icons/di'
 
 export const StatsData = [
     {

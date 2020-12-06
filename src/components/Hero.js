@@ -12,7 +12,7 @@ const Hero = () => {
                <HeroItems>
                    <HeroH1>SEO Adrian Dąbrowiecki</HeroH1>
                    <HeroP>Jeżeli potrzebny ci specialista SEO, to dobrze trafiłeś</HeroP>
-                   <Button primary="true" big="true" round="true" to="/services">Usługi</Button>
+                   <Button primary="true" big="true" round="true" to="/contact">Skontaktuj się ze mną</Button>
                </HeroItems>
            </HeroContent>
        </HeroContainer>
@@ -29,7 +29,7 @@ const HeroContainer = styled.div`
     transform:scaleX(1,5);
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 100vh;
     padding: 0 1rem;
     position: relative;
     margin-top: -80px;

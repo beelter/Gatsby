@@ -3,28 +3,28 @@
         "img": "../assets/images/content.jpg",
         "alt": "Content Marketing",
         "name": "Content Marketing",
-        "description": " ",
+        "description": "Dziel się swoją wiedza z klientami a w zamian to ciebie wybiorą jako firme która dostarczy im upragniona usługę. W końcu jeżeli jesteś w stanie tak dobrze opisać do czym sie zajmujesz to musisz być w tym ekspertem. Osobiście wolał bym kupić samochód od zapalonego fana motoryzacji niż od człowieka który mowi że samochod służy do przetransportowania się z punktu A do punktu B. Ja pomogę dobrać ci słowa kluczowe, a treści na twojej stronie zmienie tak, żeby docieraly częsciej  do klientow dzięki ich optymalizacji dla Google.",
         "button": "Więcej"
     },
     {
         "img": "../assets/images/content.jpg",
-        "alt": "Link-building/ Link-Audit",
-        "name": "Link-building/ Link-Audit",
-        "description": " ",
+        "alt": "Link-building:",
+        "name": "Link-building:",
+        "description": "Kim jest przedsiebiorca bez dobrej opinii klientów? Tym samym czym strona internetowa bez linkow budujacych jej autorytet. Google chce promować wysokiej jakości treści, a dzieki linkom do twojej strony, wlasnie taką wysoka jakosc google bedzie widziec w twojej stronie.",
         "button": "Więcej"
     },
     {
         "img": "../assets/images/content.jpg",
-        "alt": "Structure Optimization",
-        "name": "Structure Optimization",
-        "description": " ",
+        "alt": "Link-Audit",
+        "name": "Link-Audit",
+        "description": "Pewnie zdarzylo ci sie juz korzystac z pomocy `Agencji SEO` według ktorych wiecej znaczy lepiej. Można mieć flote lanosów, ale dużo bezpieczniej jest jeżdzić czymś młodszym od siebie. Właśnie taka duża ilość niskiej jakości linkow jest dla naz niebezpieczna. Google patrzy na takie strony jak urząd skarbowy na przedsiębiorców. Pozwól że z pomocą kilku programów pozbędę sie z twojej strony zagrożenia.  ",
         "button": "Więcej"
     },
     {
         "img": "../assets/images/content.jpg",
         "alt": "Performance optimization",
         "name": "Performance optimization",
-        "description": " ",
+        "description": "Lubisz korzystać z netflixa czy amazona? Ja tez, a to także z tego powodu że nie ważne czy korzystam z nich na starym tablecie czy telefonie, nigdy nie mam problemu z zacinajaca sie strona/aplikacją. To wszystko dzięki optymalizacji, ktora staje sie coraz wazniejsza nie tylko dla użytkownikow takich jak Ja czy Ty ale także dla google. Nawet tacy giganci jak google nie lubia przeplacac, a nie wydajna strona internetowa to wiekszy wydatek dla ich serwerow aby ich roboty mogly ja zaindeksowac(Jezeli nie wiesz czym jest indeksacja to Google it).",
         "button": "Więcej"
     }
     

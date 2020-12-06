@@ -11,8 +11,18 @@ const Footer = () => {
                     <p>Narazie jestem freelancerem, a nie agencja SEO, ale pamietajmy ze nie zawsze rozmiar ma znaczenie. Bo nawet wielki czarny SUV od BMW moze zle skonczyc przy spotkaniu z perła polskiej motoryzacji jaką jest "Syrena".</p>
                 </FooterDesc>
                 <FooterLinkItems>
-                    <FooterLinkTitle to="/services">Usługi</FooterLinkTitle>
-                    <FooterLink to="#">Content Marketing</FooterLink>
+                    <FooterLinkTitle>Kontakt</FooterLinkTitle>
+                    <FooterLink to="/contact">Kontakt</FooterLink>
+                    <FooterLink to="/services">Usługi</FooterLink>
+                    <FooterLink to="#">Performance Optimization</FooterLink>
+                    <FooterLink to="#">Link Audit</FooterLink>
+                    <FooterLink to="#">Link Building</FooterLink>
+                    <FooterLink to="#">Structure Optimization</FooterLink>
+                </FooterLinkItems>
+                <FooterLinkItems>
+                    <FooterLinkTitle>Usługi</FooterLinkTitle>
+                    <FooterLink to="/contact">Kontakt</FooterLink>
+                    <FooterLink to="/services">Usługi</FooterLink>
                     <FooterLink to="#">Performance Optimization</FooterLink>
                     <FooterLink to="#">Link Audit</FooterLink>
                     <FooterLink to="#">Link Building</FooterLink>
@@ -20,15 +30,12 @@ const Footer = () => {
                 </FooterLinkItems>
                 <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
-                    <FooterLink to="#">Facebook</FooterLink>
-                    <FooterLink to="#">Instagram</FooterLink>
-                    <FooterLink to="#">Likedin</FooterLink>
-                    <FooterLink to="#">Twitter</FooterLink>
-                </FooterLinkItems>
-                <FooterLinkItems>
-                    <FooterLinkTitle to="/contact">Kontakt</FooterLinkTitle>
-                    <FooterLinkTitle to="/about">O nas</FooterLinkTitle>
-                    <FooterLinkTitle to="/blog">Blog</FooterLinkTitle>
+                    <FooterLink to="/contact">Kontakt</FooterLink>
+                    <FooterLink to="/services">Usługi</FooterLink>
+                    <FooterLink to="#">Performance Optimization</FooterLink>
+                    <FooterLink to="#">Link Audit</FooterLink>
+                    <FooterLink to="#">Link Building</FooterLink>
+                    <FooterLink to="#">Structure Optimization</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterContainer>
@@ -38,25 +45,19 @@ const Footer = () => {
 export default Footer
 
 const FooterContainer = style.div`
-    padding: 2rem calc((100vw - 1100px) /2);
+    padding: 5rem calc((100vw - 1100px) /2);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     color: #000;
-    background: #f4f5f7;
+    background: #fafafb;
 `
 const FooterDesc = style.div`
-    padding: 0 1rem;
+    padding: 0 2rem;
 
     h1 {
-        margin-bottom: 1rem;
-        color: #FF0F00;
-    }
-
-    p {
         margin-bottom: 3rem;
-        color: #3d3d4e;
+        color: #f26a2e;
     }
-
 
     @media screen and (max-width: 400px) {
         padding: 1rem;
@@ -64,7 +65,7 @@ const FooterDesc = style.div`
 `
 const FooterLinksWrapper = style.div`
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     @media screen and (max-width: 820px) {
         grid-template-columns: 1fr;
@@ -80,17 +81,9 @@ const FooterLinkItems = style.div`
         padding: 1rem;
     }
 `
-const FooterLinkTitle = style(Link)`
-    text-decoration: none;
+const FooterLinkTitle = style.h2`
     font-size: 2rem;
     margin-bottom: 16px;
-    font-weight: bold;
-    color: #3d3d4e;
-
-    &:hover {
-        color: #FF0F00;
-        transition: 0.2s ease-out;
-    }
 `
 const FooterLink = style(Link)`
     text-decoration: none;
@@ -100,7 +93,7 @@ const FooterLink = style(Link)`
     color: #3d3d4e;
 
     &:hover {
-        color: #FF0F00;
-        transition: 0.2s ease-out;
+        color: #f26a2e;
+        transition: 0.3s ease-out;
     }
 `
